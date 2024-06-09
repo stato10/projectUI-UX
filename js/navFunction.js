@@ -1,4 +1,3 @@
-
 $(window).scroll(function() {
     if ($(document).scrollTop() > 50) {
         $('.nav').addClass('affix');
@@ -13,5 +12,4 @@ $('.navTrigger').click(function () {
     console.log("Clicked menu");
     $("#mainListDiv").toggleClass("show_list");
     $("#mainListDiv").fadeIn();
-
 });
